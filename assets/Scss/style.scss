@@ -1,7 +1,46 @@
 .nav{
-    display: grid;
+    display: flex !important;
     background-color: red;
     height: 64px;
     margin-top: 48px;
-    
+    .nav_academy{
+        width: 629px;
+        height: 38px;
+        display: flex;
+        justify-content: space-between;
+        .nav_academy_start{
+            display: flex;
+            .nav_academy_start_icon{
+                width: 30px;
+                height: 30px;
+            }
+            .nav_academy_start_word{
+                color: var(--Dark, #080808);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: 'Rubik', sans-serif;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+                text-transform: uppercase;
+                grid-column: 2/3;
+                grid-row: 1/2;
+            }
+        }
+        .nav_academy_items{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .pale{
+            color: var(--Dark-50, rgba(8, 8, 8, 0.50));
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+    }
 }
