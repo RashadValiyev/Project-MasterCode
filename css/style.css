@@ -1495,12 +1495,13 @@ main .subscribe .mail button.submit {
 main .subscribe .kvadrat1 {
   display: absolute;
   width: 315px;
-  height: 275px;
+  height: 250px;
   flex-shrink: 0;
   border-radius: 40px;
   background: var(--Blue, #5A69F2);
   margin-top: -230px;
   margin-left: 1400px;
+  overflow: hidden;
 }
 main .subscribe .kvadrat2 {
   width: 255px;
