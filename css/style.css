@@ -1524,6 +1524,7 @@ main .bar {
   height: 40px;
   margin: 0 auto;
   grid-template-columns: 150px 105px;
+  margin-top: 150px;
 }
 main .bar p {
   margin-top: 5px;
